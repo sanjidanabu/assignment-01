@@ -1,0 +1,18 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 120px;
+  
+}
+ .menu{
+  display: flex;
+  gap: 32px;
+  color: #000000;
+ }
+
+ .btn{
+  color: rgba(255, 255, 255, 1);
+  background-color: #30B868;
+  padding: 12px 16px;
+ }
