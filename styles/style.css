@@ -59,10 +59,15 @@ nav{
   background: white;
   font-size: 15px;
   font-size: medium;
-  padding: 8px 12px 8px 34px;
+  padding: 8px 12px 8px 12px;
   color: #30B868;
+  gap: 6px;
   
 
+}
+.head-btn:hover{
+  background-color: grey;
+  cursor: pointer;
 }
 
 #header-section .banner-heading{
