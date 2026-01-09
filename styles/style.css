@@ -1,3 +1,18 @@
+*{
+  margin:0;
+  pading:0;
+  box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+
+
+
 nav{
   display: flex;
   justify-content: space-between;
@@ -15,4 +30,98 @@ nav{
   color: rgba(255, 255, 255, 1);
   background-color: #30B868;
   padding: 12px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 4px;
  }
+
+ .btn:hoover {
+  background-color: wheat;
+ }
+
+ /* header section */
+ header{
+  padding-top: 35px;
+  background-image: url(../assets/hero-bg.png);
+  height: 675px;
+ }
+  section {
+    width: 85%;
+    max-width: 1360px;
+    padding-top: 116px;
+    
+    
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+ }
+.head-btn{
+  
+  border-radius: 1000px;
+background: rgba(255, 255, 255, 1);
+
+  font-size: 15px;
+  font-size: medium;
+  padding: 8px 12px 8px 34px;
+  color: #30B868;
+
+}
+
+#header-section .banner-heading{
+  font-family: inter;
+  font-style: bold;
+  font-size: 72px;
+  color:rgba(255, 255, 255, 1);
+}
+
+.banner-heading .banner-h2{
+  color: rgba(48, 184, 104, 1);
+}
+.banner-p{
+ font-family: inter;
+ font-style: normal;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 24px;
+ margin-top: 16px;
+ text-align: center;
+ margin: 0 auto;
+ color: rgba(255, 255, 255, 1);
+}
+.button{
+  margin-top: 32px;
+  gap: 16px;
+  margin-bottom: 180px;
+  
+}
+
+.button .btn-1{
+  padding: 12px 16px;
+  border-radius: 4px;
+background-color: #30B868;
+color: rgba(255, 255, 255, 1);
+}
+
+.btn-2{
+  box-sizing: border-box;
+border: 1px solid rgb(65, 53, 53);
+border-radius: 4px;
+padding: 12px 16px;
+
+color: rgb(88, 68, 68);
+
+
+}
+
+#id{
+  padding-top: 130px;
+  
+}
+#id .about-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+#id  .card-box{
+  display: flex;
+}
