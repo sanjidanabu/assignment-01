@@ -248,3 +248,49 @@ margin: 16px;
 color: white;
 border: none;
  }
+  footer{
+    background:  rgba(0, 25, 49, 1);
+    height: 348px;
+  }
+ #foot{
+  display: flex;
+  width: 85%;
+  max-width: 1360px;
+  justify-content: space-between;
+  border-top: 240px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+
+ }
+ #foot p{
+  color: rgba(255, 255, 255, 1);
+ }
+ #foot .img-1{
+  display: flex;
+  gap: 16px;
+  
+ }
+ .last-section{
+  max-width: 1360px;
+  width: 85%;
+  margin: 0 auto;
+ }
+ .sm-section{
+  text-align: center; 
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+ }
+ .social-links{
+  margin-bottom: 16px;
+ }
+ .social-links p{
+  margin-bottom:16px ;
+ }
+ .last-section{
+  margin-bottom: 85px;
+ }
+
+ .last-section hr{
+  margin: 30px;
+ }
